@@ -1,5 +1,5 @@
-price = 3
-weight = 7.5
+price = 5
+weight = 4
 money = price * weight
 print(type(money))
 str_money = str(money)
