@@ -4,5 +4,5 @@ while i <= 9:
     while j < i:
         j = j + 1
         print('%d * %d = %d' % (j, i, j * i), end='\t')
-    print()##
+    print()
     i = i + 1
