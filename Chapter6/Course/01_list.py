@@ -41,3 +41,22 @@ print('------------------------------')
 # Vider une liste
 leisure.clear()
 print(leisure)
+print('------------------------------')
+# Concaténer deux listes
+month = ['Janvier', 'Février', 'Mars']
+season = ['Automne', 'Hiver', 'Printemps', 'Eté']
+various_times = month + season
+print(various_times)
+print('------------------------------')
+month.extend(season)
+print(month)
+print('------------------------------')
+# Créer une tranche de liste
+rainbow= ['rouge', 'orange', 'jaune', 'vert', 'bleu', 'indigo', 'violet']
+print(rainbow)
+print(len(rainbow))
+print(rainbow[1:4])
+print(rainbow[3:])
+print(rainbow[:5])
+print(rainbow[-5:-2])
+
